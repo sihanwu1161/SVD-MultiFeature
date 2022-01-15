@@ -13,8 +13,8 @@ parser.add_argument('--dataset', type=str)
 args = parser.parse_args()
 
 # vocal variance parameters 
-FRAMESIZE = 2205
-HOPSIZE = 441
+FRAMESIZE = 1600
+HOPSIZE = 320
 
 
 def concat_feat(audio_path, set_dir, matlab_dir, feat_save_dir):
